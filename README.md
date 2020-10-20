@@ -1,4 +1,18 @@
 # DevBops
 In this post, I will talk about my experience as one of the three project managers in the DevBops project at Last Mile Talent's phase 1B of the DevOps bootcamp. I would like to make this a reference for my peers who would like to learn about what my role was and how I added value to the overall project. 
 
-- 
+## Goal:
+- The core of the project management role was to incorporate tech industry’s best practices to build a functional website on Amazon Web Services (AWS). Our “clients” had assigned us to build a platform like Eventbrite, where users could create, read, update, and delete (CRUD) personal accounts, events, and blogs. In addition, we were given the options to include features, like commenting on blogs, rsvp’ing events, and attach pictures when posting events and blogs to aim for an engaging user experience. With many ideas in our minds, the Project Mangers came together to plan strategies that would allow the LMTD team to successfully delivery the clients’ project in a well-organized way.  
+
+
+## Process
+-When we first received the lists of what the clients’ wanted on their website, we went on Trello.com to use the Kanban board to keep the workflow of our project organized. We added resources, meeting requests, user stories, backlog, to-do, doing, in-review, and done cards on to keep track of the categories of our tasks throughout the project. Because we were leveraging microservices architecture for the website, we distributed our members into eight groups, front-end, API, project management, user services, blog services, events services, database, and finally quality assurance. Trello allowed us to create Kanban cards specific to the teams by color-labeling them differently. 
+-Our initial meeting included distributing roles for each team and rendering the big picture of how the microservices are distributed on AWS to keep everyone on the same page. We were able to kick-off on the right pace by having each team research best strategies and code the right code to keep each microservices consistent. 
+-Throughout our weekly sprints, each team updated the project managers their status on the project and any roadblocks and questions they may have in order for us to safely manage and move the cards on the Trello board. 
+-My role (Anish) as a project manager included communicating with the front-end team to make sure the design for the website is consistent with the clients’ needs. I used photoshop to design the theme, wireframe, and the progressions of each webpage. With the help of Sabina, we were able to choose the industry standard layout and choose a minimalistic theme for our front-end engineer to code off of. 
+-The three project managers were heavily involved in the communications of each teams and made sure the members are on the same boat. We made sure technical leads from each microservices were able to organize meetings with each other, have the API gateway team create API documentations that allowed each EC2s to connect, the database team was constant with the type of database to use, and the quality assurance team were able to test our code to give green lights for production. 
+
+## End result
+-After three weeks, the LMTD team were able to successfully create the building blocks for the website to come to life. We ultimately reached the point where the API gateway team had to go over the code to ensure each microservice was formatted properly to be deployed to AWS EC2. After the files were reviewed and had the right formats for the API to connect, we were able to successfully deploy our project on AWS. 
+-Our clients were satisfied by our demonstration of the website, but we look forward to continuously manage and add features to our project.
+-The website can be found here: http://devbops.com/
